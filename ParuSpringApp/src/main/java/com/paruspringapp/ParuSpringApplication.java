@@ -22,9 +22,9 @@ public class ParuSpringApplication {
 	@Bean
 	public CommandLineRunner setup(PersonRepository personRepository) {
 		return (args) -> {
-			personRepository.save(new Person("Prasil", "Prakash"));
-			personRepository.save(new Person("Nileena", "GP"));
-			personRepository.save(new Person("Lakshya", "Prasil"));
+			personRepository.save(new Person("Túrin", "Turambar"));
+			personRepository.save(new Person("Frodo", "Baggins"));
+			personRepository.save(new Person("Melkor", "Morgoth"));
 			LOGGER.info("The sample data has been generated");
 		};
 	}
