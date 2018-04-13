@@ -1,4 +1,4 @@
-package com.prasilius.services.models;
+package com.paruspringapp.services.models;
 
 public class Response {
 

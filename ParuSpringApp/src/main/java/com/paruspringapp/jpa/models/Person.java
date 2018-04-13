@@ -1,4 +1,4 @@
-package com.prasilius.jpa.models;
+package com.paruspringapp.jpa.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

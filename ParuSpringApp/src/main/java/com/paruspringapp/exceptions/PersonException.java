@@ -1,4 +1,4 @@
-package com.prasilius.exceptions;
+package com.paruspringapp.exceptions;
 
 public class PersonException extends Exception {
 

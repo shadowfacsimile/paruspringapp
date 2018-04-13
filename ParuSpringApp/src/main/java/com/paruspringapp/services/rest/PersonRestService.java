@@ -1,4 +1,4 @@
-package com.prasilius.services.rest;
+package com.paruspringapp.services.rest;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prasilius.exceptions.PersonException;
-import com.prasilius.jpa.models.Person;
-import com.prasilius.services.business.PersonService;
-import com.prasilius.services.models.Response;
-import com.prasilius.util.PayloadValidator;
+import com.paruspringapp.exceptions.PersonException;
+import com.paruspringapp.jpa.models.Person;
+import com.paruspringapp.services.business.PersonService;
+import com.paruspringapp.services.models.Response;
+import com.paruspringapp.util.PayloadValidator;
 
 @RestController
 @RequestMapping("/persons")

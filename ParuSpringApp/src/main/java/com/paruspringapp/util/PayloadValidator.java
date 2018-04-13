@@ -1,6 +1,6 @@
-package com.prasilius.util;
+package com.paruspringapp.util;
 
-import com.prasilius.jpa.models.Person;
+import com.paruspringapp.jpa.models.Person;
 
 public class PayloadValidator {
 	

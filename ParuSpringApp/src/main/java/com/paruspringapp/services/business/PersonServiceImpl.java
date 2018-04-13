@@ -1,12 +1,12 @@
-package com.prasilius.services.business;
+package com.paruspringapp.services.business;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.prasilius.jpa.models.Person;
-import com.prasilius.jpa.repositories.PersonRepository;
+import com.paruspringapp.jpa.models.Person;
+import com.paruspringapp.jpa.repositories.PersonRepository;
 
 @Component
 public class PersonServiceImpl implements PersonService {

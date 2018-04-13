@@ -1,4 +1,4 @@
-package com.prasilius;
+package com.paruspringapp;
 
 import java.util.logging.Logger;
 
@@ -7,8 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.prasilius.jpa.models.Person;
-import com.prasilius.jpa.repositories.PersonRepository;
+import com.paruspringapp.jpa.models.Person;
+import com.paruspringapp.jpa.repositories.PersonRepository;
 
 @SpringBootApplication(scanBasePackages = { "com.prasilius" })
 public class ParuSpringApplication {

@@ -1,4 +1,4 @@
-package com.prasilius.exceptions;
+package com.paruspringapp.exceptions;
 
 import org.springframework.stereotype.Component;
 

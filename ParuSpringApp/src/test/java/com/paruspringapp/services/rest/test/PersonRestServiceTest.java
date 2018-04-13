@@ -1,4 +1,4 @@
-package com.prasilius.services.rest.test;
+package com.paruspringapp.services.rest.test;
 
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.core.Is.is;
@@ -21,7 +21,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.prasilius.ParuSpringApplication;
+import com.paruspringapp.ParuSpringApplication;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT, classes = ParuSpringApplication.class)

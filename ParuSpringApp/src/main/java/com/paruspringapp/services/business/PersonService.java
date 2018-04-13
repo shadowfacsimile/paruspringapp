@@ -1,10 +1,10 @@
-package com.prasilius.services.business;
+package com.paruspringapp.services.business;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.prasilius.jpa.models.Person;
+import com.paruspringapp.jpa.models.Person;
 
 @Service
 public interface PersonService {
