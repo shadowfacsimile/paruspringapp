@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import com.paruspringapp.jpa.models.Person;
 import com.paruspringapp.jpa.repositories.PersonRepository;
 
-@SpringBootApplication(scanBasePackages = { "com.prasilius" })
+@SpringBootApplication(scanBasePackages = { "com.paruspringapp" })
 public class ParuSpringApplication {
 
 	private static final Logger LOGGER = Logger.getLogger(ParuSpringApplication.class.getName());
