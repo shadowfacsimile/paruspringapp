@@ -24,7 +24,7 @@ public class TPersonRepositoryTest {
 	@Test
 	@Transactional
 	public void test_get_person_by_id() {
-		assertEquals(personRepository.getOne(3l).getFirstname(), "Lakshya");
+		assertEquals(personRepository.getOne(3l).getFirstname(), "Melkor");
 	}
 	
 	@Test

@@ -44,7 +44,7 @@ public class PersonRestServiceTest {
 	@Test
 	public void testGetPersonById() throws Exception {
 		mvc.perform(get("/persons/1").accept(MediaType.APPLICATION_JSON))
-				.andExpect(jsonPath("$.firstname", is("Prasil"))).andDo(print());
+				.andExpect(jsonPath("$.firstname", is("Túrin"))).andDo(print());
 	}
 
 	@Test
