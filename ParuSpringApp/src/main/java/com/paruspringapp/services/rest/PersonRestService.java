@@ -38,7 +38,7 @@ public class PersonRestService {
 		if (persons.isEmpty())
 			throw new PersonException("No records found.");
 
-		return new ResponseEntity<>(personServiceImpl.getPersons(), HttpStatus.OK);
+		return new ResponseEntity<>(persons, HttpStatus.OK);
 	}
 
 	@CrossOrigin(origins = "http://localhost:4200")

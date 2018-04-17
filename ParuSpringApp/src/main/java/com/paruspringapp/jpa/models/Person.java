@@ -23,8 +23,8 @@ public class Person {
 	}
 
 	public Person(final String firstname, final String lastname) {
-		setFirstname(firstname);
-		setLastname(lastname);
+		this.firstname = firstname;
+		this.lastname = lastname;
 	}
 
 	public long getId() {
